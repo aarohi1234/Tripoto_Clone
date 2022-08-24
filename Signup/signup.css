@@ -2,11 +2,18 @@
 #container{
     width: 25%;
     border: 1px solid;
+    border-radius: 10px;
+    margin: auto;
 }
 #inner_box{
-    border: 1px solid red;
     width: 85%;
     margin: auto;
+}
+#facebook_btn{
+    background-color: #4a66a0;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
 }
 #inner_box>button{
     width: 100%;
@@ -15,6 +22,11 @@
     margin-top: 10px;
     padding: 10px;    
     display: block;
+    border: white;
+    border-radius: 5px;
+}
+#inner_box>button:hover{
+    cursor: pointer;
 }
 #or{
     text-align: center;
@@ -30,5 +42,8 @@
     background-color: #f27669;
     color: white;
     display: block;
+    text-align: center;
+}
+#loginBtn{
     text-align: center;
 }
