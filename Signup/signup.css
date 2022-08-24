@@ -8,7 +8,7 @@
     width: 85%;
     margin: auto;
 }
-button{
+#inner_box>button{
     width: 100%;
     display: flex;
     margin: auto;
@@ -16,11 +16,11 @@ button{
     padding: 10px;    
     display: block;
 }
-h4{
+#or{
     text-align: center;
     color: grey;
 }
-input{
+#inner_box>input{
     width: 92%;
     margin-top: 15px;
     padding: 10px;
