@@ -1,65 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        .footer1{
-            display: grid;
-            grid-template-columns: repeat(5,auto);
-            width: 100%;
-            gap: 10px;
-         
-        }
-        .footer1>div{
-            margin-top: 20px;
-            width: 100%;
-            margin-left: 1%;
-            height: 350px;
-            font-family:helvetica,arial,sans-serif;
-        }
-        .footer2{
-            width: 98%;
-            margin:0 auto;
-            text-align: center;
-            font-family:helvetica,arial,sans-serif;
-        }
-        .footer1>div>a{
-           text-decoration: none;
-           color: black;
-           font-size:smaller;
-        }
-        .footer2>p{
-            margin-top: 10px;
-            font-size: smaller;
-        }
-        #logo{
-            width: 180px;
-            font-size: smaller;
-            margin-left:25px;
-        }
-        .Google{
-       margin-left: 5px;
-            margin-top:15px;
-        }
-        .social{
-            margin-top: 5px;
-        }
-        .social>a>img{
-            height: 25px;
-        }
-    </style>
-</head>
-<body>
-    <!-------------------------------------- fooooooooooooterrrrrrr --------------------------------------------------->
-    <div id="footer">
-    <hr>
+let footer=()=>{
+    return `<hr>
     <div class="footer1">
      <div id="logo">
          <img src="https://cdn1.tripoto.com/assets/2.9/img/logo/header-blue.svg" alt="loading">
@@ -121,7 +61,6 @@
     <div class="footer2">
         <hr>
         <p>© All rights reserved.</p>
-    </div>
-</div>
-</body>
-</html>
+    </div> `
+}
+export default footer
