@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+      integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/package.css" />
+    <link rel="stylesheet" href="./style/mainfooter.css" />
+  </head>
+  <body>
+    <div id="header">
+      <nav id="nav">
+        <div>
+          <img
+            id="img"
+            src="https://cdn1.tripoto.com/assets/2.9/img/logo/tripoto.svg"
+          />
+        </div>
+        <div id="navsearch" style="display: none">
+          <input
+            id="newinput"
+            type="text"
+            value=""
+            placeholder="Search for itineraise, destination, hotels or activities"
+            value="hii"
+          />
+          <a href="#">
+            <i class="fas fa-search"></i>
+          </a>
+        </div>
+        <div id="link">
+          <a href="#">Inspirations▼</a>
+          <a href="#">Forum</a>
+          <a href="#">Holidays</a>
+          <a href="#">Publish Trip▼</a>
+          <a href="#" onclick="login()" id="remove">Sign in</a>
+        </div>
+      </nav>
+      <div id="login">
+        <div id="close" onclick="closelogin()">
+          <img src="https://logodix.com/logo/1077363.png" />
+        </div>
+        <div id="facebook">
+          <div id="fbimage">
+            <img
+              src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-128.png"
+            />
+          </div>
+          <div id="text">Log in with Facebook</div>
+        </div>
+        <div id="google">
+          <div id="fbimage">
+            <img
+              src="https://cdn.iconscout.com/icon/free/png-256/google-152-189813.png"
+            />
+          </div>
+          <div id="text">Log in with Google</div>
+        </div>
+        <p style="text-align: center">OR</p>
+        <input type="text" id="email" placeholder="EMAIL" />
+        <input type="password" id="password" placeholder="PASSWORD" />
+        <div id="remember">
+          <input style="margin-top: 5px" type="checkbox" />
+          <label>Remember me</label>
+          <a href="#" style="color: blue; float: right; margin-top: 5px"
+            >Forgot Password</a
+          >
+        </div>
+        <input
+          style="color: white; font-weight: bolder"
+          type="button"
+          value="LOG IN"
+          id="button"
+        />
+        <div id="signup">
+          <p style="text-align: center">
+            Don't have an account?
+            <a href="#" style="color: blue" onclick="signup()">Sign Up</a>
+          </p>
+        </div>
+      </div>
+      <h1 id="global">The Global Community of Travellers</h1>
+      <div id="search">
+        <input
+          id="input"
+          type="text"
+          placeholder="Search for itineraise, destination, hotels or activities"
+        />
+        <a href="#">
+          <i class="fas fa-search"></i>
+        </a>
+      </div>
+      <div
+        id="parents"
+        style="margin-top: 5px; position: absolute; top: 250px; left: 340px"
+      ></div>
+    </div>
+    <div id="signin">
+      <div id="close" onclick="closesignup()">
+        <img src="https://logodix.com/logo/1077363.png" />
+      </div>
+      <div id="facebook">
+        <div id="fbimage">
+          <img
+            src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-128.png"
+          />
+        </div>
+        <div id="text">Log in with Facebook</div>
+      </div>
+      <div id="google">
+        <div id="fbimage">
+          <img
+            src="https://cdn.iconscout.com/icon/free/png-256/google-152-189813.png"
+          />
+        </div>
+        <div id="text">Log in with Google</div>
+      </div>
+      <p style="text-align: center">OR</p>
+      <input type="text" id="name" placeholder="NAME" />
+      <input type="text" id="email1" placeholder="EMAIL" />
+      <input type="password" id="password1" placeholder="PASSWORD" />
+      <select id="options">
+        <option value="">Account Type</option>
+        <option value="Personal">Personal</option>
+        <option value="Business">Business</option>
+        <option value="Blogger">Blogger</option>
+        <option value="Indipent Guide">Indipent Guide</option>
+      </select>
+      <input style="margin-top: 10px; margin-left: 20px" type="checkbox" />
+      <label>Subscribe to the newsletter</label>
+      <div id="robot">
+        <div id="checkbox" onclick="checkbox()"></div>
+        <label style="margin-left: 10px; line-height: 50px"
+          >I'm not a robot</label
+        >
+        <div id="captcha">
+          <img style="width: 100%; height: 100%" src="captcha.PNG" />
+        </div>
+      </div>
+      <input
+        style="color: white; font-weight: bolder"
+        type="button"
+        value="SIGN UP"
+        id="button1"
+      />
+      <p style="text-align: center">
+        <span style="color: blue; cursor: pointer"
+          >By signing up, you agree to Tripoto's</span
+        >terms and conditions and privacy policy.
+      </p>
+      <p style="text-align: center">
+        Already registered?
+        <span>
+          <a style="color: blue" href="#" onclick="loginAgain()">Log in</a>
+        </span>
+      </p>
+    </div>
+
+    <!--------------------------------------FOOTER --------------------------------------------------->
+    <div id="FOOTER"></div>
+   
+
+    <script>
+      function login() {
+        document.getElementById("login").style.display = "block";
+      }
+
+      function closelogin() {
+        document.getElementById("login").style.display = "none";
+      }
+      function checkbox() {
+        var check = document.getElementById("checkbox");
+        check.innerHTML = "";
+        check.style.border = "none";
+        var img = document.createElement("img");
+        img.setAttribute(
+          "src",
+          "https://seeklogo.com/images/G/google-material-design-check-logo-B26F6F7B81-seeklogo.com.png"
+        );
+        img.setAttribute("width", "100%");
+        img.setAttribute("height", "100%");
+        check.append(img);
+      }
+      function signup() {
+        document.getElementById("login").style.display = "none";
+        document.getElementById("signin").style.display = "block";
+      }
+      function loginAgain() {
+        document.getElementById("login").style.display = "block";
+        document.getElementById("signin").style.display = "none";
+      }
+      function closesignup() {
+        document.getElementById("signin").style.display = "none";
+      }
+      document.getElementById("button1").addEventListener("click", validate);
+      var arr1 = JSON.parse(localStorage.getItem("detail")) || [];
+      function validate() {
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email1").value;
+        var password = document.getElementById("password1").value;
+        if (name == "" || email == "" || password == "") {
+          alert("please fill all the fields");
+        } else {
+          var obj = {
+            name: name,
+            email: email,
+            password: password,
+          };
+          arr1.push(obj);
+          localStorage.setItem("detail", JSON.stringify(arr1));
+        }
+      }
+      document
+        .getElementById("button")
+        .addEventListener("click", validatleogin);
+      function validatleogin() {
+        var flag = true;
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+        var data = JSON.parse(localStorage.getItem("detail"));
+        data.forEach((Element) => {
+          if (Element.email == email && Element.password == password) {
+            document.getElementById("remove").style.display = "none";
+            var link = document.getElementById("link");
+            document.getElementById("login").style.display = "none";
+            var div = document.createElement("div");
+            div.style.width = "40px";
+            div.style.height = "40px";
+            div.style.marginTop = "10px";
+            div.style.borderRadius = "20px";
+            var img = document.createElement("img");
+            img.src =
+              "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Ei-user.svg/1200px-Ei-user.svg.png";
+            img.style.width = "100%";
+            img.style.height = "100%";
+            let profname = document.createElement("p");
+            profname.innerText = Element.name;
+            div.append(img, profname);
+            link.append(div);
+            var h5 = document.createElement("h4");
+            h5.addEventListener("click", load);
+            h5.innerText = "Log Out";
+            h5.style.margin = "18px 1px";
+            h5.style.color = "white";
+            h5.style.cursor = "pointer";
+            link.append(h5);
+            flag = false;
+          }
+        });
+        if (flag) {
+          alert("Invald Username or Password");
+        }
+      }
+      function load() {
+        window.location.href = "index.html";
+      }
+
+      window.ondblclick = function () {
+        myFunction_1();
+      };
+      function myFunction_1() {
+        document.getElementById("login").style.display = "none";
+        document.getElementById("signin").style.display = "none";
+      }
+      function myfunction(name) {
+        localStorage.setItem("cityName", JSON.stringify(name));
+        window.location.href = "city.html";
+      }
+    </script>
+  </body>
+</html>
+
+<script src="./scripts/index.js" type="module"></script>
