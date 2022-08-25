@@ -1,0 +1,208 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#common_Header {
+  width: 100%;
+  /* height: 500px; */
+  height: 79vh;
+  background-image: url("https://cdn1.tripoto.com/media/filter/nxxl/img/30751/Image/1647248828_1626953319_web_online_experiences_62.jpeg");
+  background-size: cover;
+}
+#common_nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  top: 0;
+  left: 0;
+  position: absolute;
+  position: relative;
+  /* border: 1px  solid black; */
+  /* background-color: rgb(71, 69, 69); */
+}
+#common_nav > div:nth-child(1) {
+  width: 13%;
+  height: 10vh;
+  margin-top: 5px;
+}
+#common_nav > div:nth-child(3) {
+  height: 10vh;
+  margin-left: 2%;
+}
+#Hindi_link {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1%;
+}
+#Hindi_link > a {
+  margin-right: 10px;
+  gap: 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  font-weight: bolder;
+  color: white;
+  font-family: circularairpro-bold, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+#Common_navsearch {
+  width: 40%;
+  height: 2vw;
+  /* margin-left: 0px; */
+  border-radius: 5px;
+  background-color: white;
+  padding: 7px;
+  margin-top: 12px;
+}
+#hindiInputCont {
+  justify-content: center;
+  align-items: center;
+  line-height: 4vh;
+  border: none;
+  outline: none;
+  width: 90%;
+}
+#mainLogo {
+  height: 200px;
+  width: 200px;
+}
+.hindi_section2 {
+  width: 95%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(6, auto);
+  margin-left: 3%;
+  /* border: 1px solid black; */
+}
+img {
+  width: 410px;
+  height: 250px;
+  border-radius: 3%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.partnertext > p {
+  font-size: 20px;
+}
+
+#hindislidetag {
+  margin-top: 20px;
+  margin-left: 2%;
+  margin-bottom: 60px;
+}
+.hinditext {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 150px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.hinditext1 {
+  display: grid;
+  grid-template-columns: 20% 30% 30%;
+  gap: 40px;
+  margin-top: 5px;
+  height: 25px;
+}
+.small_img {
+  width: 20px;
+  height: 20px;
+  padding: 0.5%;
+  float: left;
+}
+.daynight {
+  background-color: teal;
+  color: white;
+  width: 60px;
+  height: 20px;
+  border-radius: 15px;
+  padding: 2%;
+  text-align: center;
+}
+.booknowbtn {
+  width: 80px;
+  border-radius: 5px;
+  border: 1px solid teal;
+  color: teal;
+  height: 30px;
+  text-align: center;
+  padding: 2%;
+  /* margin-top: 20px; */
+  margin-left: 20px;
+  cursor: pointer;
+}
+#packagecont {
+  color: #359391;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 4px;
+  /* text-decoration: none; */
+}
+.hinditext > a {
+  text-decoration: none;
+  font-size: 20px;
+}
+#hrlineinbottom {
+  margin-top: 40px;
+  border-bottom: 1px solid rgb(203, 203, 203);
+}
+#lastimagelogo {
+  margin-top: 7px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+#chamgedivlogoname {
+  margin-top: -8%;
+  margin-left: 10%;
+  margin-bottom: 50px;
+}
+#myBtn,
+#myBtn1 {
+  border: none;
+  text-decoration: underline;
+  background-color: none;
+  margin-left: 50%;
+}
+#mindfulllastdiv {
+  margin-left: 2.5%;
+  margin-right: 2%;
+}
+#mindfulllastdiv > p {
+  margin-top: 20px;
+  font-weight: 400;
+  max-height: 1078px;
+  line-height: 22px;
+  /* margin-bottom: 20px; */
+}
+strong {
+  margin-bottom: 30px;
+  max-height: 1078px;
+  line-height: 22px;
+}
+#mainLogoHindi > img {
+  margin-left: 12%;
+  height: 60px;
+  width: 120px;
+  max-width: 100%;
+  max-height: 100%;
+}
+#tripotodiv1 {
+  margin-top: 30px;
+  margin-left: 3%;
+}
+#tripotodiv1 > h1 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+#tripotodiv1 > a > img {
+  margin-top: -7px;
+  margin-right: 10px;
+}
+#tagheadingsLines {
+  padding: 20px;
+  margin-left: 2%;
+}
+#frequentlyaskedqu {
+  margin-left: 40%;
+}
