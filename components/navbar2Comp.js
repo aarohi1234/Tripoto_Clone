@@ -16,10 +16,23 @@ function navbar2(){
         <i class="fa-solid fa-magnifying-glass"></i>
       </div>
       <div id="Hindi_link">
-        <a href="#">Inspirations ▼ &nbsp;&nbsp;</a>
+      <span class="tooltip">
+      <a href="#"><p>Inspiration <i class="fa-solid fa-caret-down"></i></p></a>
+          <div class="tooltip-popup">
+            <p>Visit Dubai</p>
+            <p>Beaches</p>
+            <p>Mountains</p>
+            <p>Explore More</p>
+          </div>
+        </span>
         <a href="#">Forum &nbsp;&nbsp;</a>
         <a href="#">Holidays &nbsp;&nbsp;</a>
-        <a href="#">Publish Trip ▼&nbsp;&nbsp;</a>
+        <span class="tooltip">
+            <p>Publish Trip <i class="fa-solid fa-caret-down"></i></p>
+            <div class="tooltip-popup">
+              <p>Create New</p>
+            </div>
+          </span>
         <a href="#">&nbsp;&nbsp;Sign in</a>
       </div>
     </nav>

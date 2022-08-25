@@ -3,13 +3,9 @@ import { footer } from "../components/footerComp.js";
 
 document.getElementById("FOOTER").innerHTML = footer();
 
-import{navbar2} from'../components/navbar2Comp.js'
-console.log(navbar2())
-
-document.getElementById("NAVBAR2").innerHTML = navbar2()
 
 import { navbar } from "../components/navbarComp.js";
-// console.log(navbar());
+console.log(navbar());
 
 document.getElementById("NAVBAR").innerHTML = navbar();
 

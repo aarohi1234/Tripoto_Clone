@@ -21,7 +21,7 @@ body {
 
 .img-slider {
   display: grid;
-  position: relative;
+  /* position: relative; */
   width: 950px;
   height: 550px;
   margin-left: 2%;
@@ -41,9 +41,8 @@ body {
 }
 
 .img-slider .slide {
-  z-index: 1;
   position: absolute;
-  width: 100%;
+  width: 950px;
   clip-path: circle(0% at 0 50%);
 }
 
@@ -236,9 +235,9 @@ a {
 
 #form {
   width: 90%;
-  height: 740px;
+  height: 830px;
   font-family: helvetica, arial, sans-serif;
-  margin: 0;
+  /* margin: 0; */
   padding-left: 7px;
   
   
@@ -247,13 +246,13 @@ a {
 #verify {
   display: grid;
   width: 78%;
-  height: 800px;
+  height: 960px;
   margin-top: -880px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   font-family: helvetica, arial, sans-serif;
   /* margin: 0; */
-  padding-left: 17px;
-  margin-left: 350px;
+  padding-left: 14px;
+  margin-left: 340px;
   align-items: center;
   justify-content: center;
   /* border:1px solid black; */
@@ -275,6 +274,7 @@ a {
   padding: 5%;
   text-align: center;
   font-size: 20px;
+  /* margin-bottom: 100px; */
 }
 #form > p {
   font-size: xx-small;
@@ -489,4 +489,15 @@ input {
   height: 25px;
   /* margin-top: 20px; */
   margin-right: 10px;
+}
+input[type="text"] {
+  margin-left: 3%;
+  width: 300px;
+}
+input[type="date"] {
+  margin-left: 3%;
+  width: 300px;
+}
+label{
+  margin-left: 3%;
 }
