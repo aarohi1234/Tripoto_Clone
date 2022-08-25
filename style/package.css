@@ -1,4 +1,5 @@
-* {
+ 
+*{
     margin: 0;
     padding: 0;
   }
@@ -74,22 +75,22 @@
     outline: none;
     width: 95%;
   }
-  .fa-search {
+  /* .fa-search {
     color: black;
-  }
-  #parent {
+  } */
+  /* #parent {
     width: 70%;
     height: 30vh;
     margin: auto;
     margin-top: 50px;
-  }
-  #slider {
+  } */
+  /* #slider {
     width: 100%;
     display: flex;
     justify-content: space-between;
     transition: 0.9s;
-  }
-  #prev {
+  } */
+  /* #prev {
     position: absolute;
     top: 73%;
     left: 8%;
@@ -98,8 +99,8 @@
     border-radius: 30px;
     color: red;
     border: none;
-  }
-  #next {
+  } */
+  /* #next {
     position: absolute;
     top: 60%;
     right: 8%;
@@ -108,11 +109,11 @@
     border-radius: 50%;
     color: red;
     border: none;
-  }
+  } */
   #login {
     width: 25%;
     height: 60vh;
-    background-color: wheat;
+    background-color: white;
     top: 35px;
     left: 500px;
     border-radius: 10px;
@@ -283,7 +284,7 @@
   #signin {
     width: 25%;
     height: 85vh;
-    background-color: wheat;
+    background-color: white;
     top: 35px;
     left: 500px;
     border-radius: 10px;
@@ -292,251 +293,6 @@
     position: absolute;
     position: fixed;
   }
-  /* .........................................................subhas close .....................................*/
-  .container {
-    width: 100%;
-    font-family: circularairpro-bold, Helvetica, Arial, sans-serif;
-  }
-  .container > h1 {
-    margin-left: 230px;
-    font-family: circularairpro-bold, Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
-  .container > p {
-    margin-left: 230px;
-    font-family: circularairpro-bold, Helvetica, Arial, sans-serif;
-
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
-  .TrendingTrips {
-    display: grid;
-    grid-template-columns: repeat(8, auto);
-    width: 72%;
-    height: 450px;
-    margin: 0 auto;
-  }
-  .TravelGuides {
-    display: grid;
-    grid-template-columns: repeat(8, auto);
-    width: 70%;
-    height: 280px;
-    margin: 0 auto;
-  }
-  .DiscoverNow {
-    display: grid;
-    grid-template-columns: repeat(8, auto);
-    width: 70%;
-    height: 220px;
-    margin: 0 auto;
-  }
-  .DiscoverNow > a {
-    text-decoration: none;
-  }
-
-  .img > img {
-    width: 350px;
-    height: 250px;
-    border-radius: 10px;
-  }
-  .button {
-    display: flex;
-    width: 320px;
-  }
-  .discription {
-    width: 320px;
-  }
-  .discription > h4 {
-    margin: 0;
-  }
-  .button > button {
-    margin-left: 200px;
-    height: 20px;
-    margin-top: 5px;
-  }
-  .button > h5 {
-    margin-top: 5px;
-  }
-  .discription > p {
-    font-size: smaller;
-    margin-top: 0;
-  }
-  .img1 > img {
-    width: 250px;
-    height: 170px;
-    margin-top: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-  }
-  .img2 > img {
-    width: 180px;
-    height: 250px;
-    margin-top: 5px;
-    border-radius: 5px;
-  }
-  .slick-arrow {
-    color: black;
-    font-size: 0px;
-    margin: 0;
-    padding: 0;
-  }
-
-  .slick-next {
-    right: 0px;
-  }
-  .slick-prev {
-    left: -45px;
-  }
-
-  .slick-next,
-  .slick-prev {
-    line-height: 0;
-    position: absolute;
-    top: 40%;
-    display: block;
-    width: 50px;
-    height: 20px;
-  }
-  .slick-next:before,
-  .slick-prev:before {
-    font-family: slick;
-    font-size: 50px;
-    line-height: 1;
-    opacity: 0.75;
-    color: rgb(177, 171, 171);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
   /* <!-------------------------------------- fooooooooooooterrrrrrr style ---------------------------------------------------> */
 
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  .footerFirst {
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    width: 98%;
-    gap: 10px;
-  }
-  .footerFirst > div {
-    margin-top: 20px;
-    width: 100%;
-    margin-left: 1%;
-    height: 350px;
-    font-family: helvetica, arial, sans-serif;
-  }
-  .footerSecond {
-    width: 98%;
-    height: 50px;
-    margin: 0 auto;
-    text-align: center;
-    font-family: helvetica, arial, sans-serif;
-  }
-  .footerFirst > div > a {
-    text-decoration: none;
-    color: black;
-    font-size: smaller;
-  }
-  .footerSecond > p {
-    margin-top: 10px;
-    font-size: smaller;
-  }
-  #logo1 {
-    width: 180px;
-    font-size: smaller;
-    margin-left: 25px;
-  }
-  .GooglePlaystore {
-    margin-left: 5px;
-    margin-top: 15px;
-  }
-  .social-icon {
-    margin-top: 5px;
-  }
-  .social-icon > a > img {
-    height: 25px;
-  }
-  .TrendingTrips > a {
-    text-decoration: none;
-    color: black;
-  }
-  /* <!-- ----------------------------------------------milind ------------------------------------> */
-  * {
-    font-family: helvetica, arial, sans-serif;
-  }
-  .partners {
-    display: grid;
-    grid-template-columns: repeat(8, auto);
-    width: 72%;
-    height: 400px;
-    margin: 0 auto;
-  }
-  .box {
-    width: 75%;
-    height: 280px;
-    margin: 0 auto;
-    border: 1px solid black;
-    margin: 0 auto;
-  }
-  .box > a > img {
-    width: 300px;
-    height: 200px;
-    border-radius: 10px;
-    margin: 15px auto;
-  }
-
-  .partnertext > p {
-    font-size: 25px;
-    margin: 0 auto;
-  }
-
-  #next {
-    float: right;
-    margin-top: 39px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    cursor: pointer;
-    margin-right: 40px;
-    padding: 10px;
-  }
-
-  .travel {
-    display: grid;
-    grid-template-columns: repeat(8, auto);
-    width: 72%;
-    height: 400px;
-    margin: 0 auto;
-  }
-  .language {
-    width: 72%;
-    height: 400px;
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(3, auto);
-
-    margin: 0 auto;
-  }
-
-  .week {
-    display: grid;
-    grid-template-columns: repeat(8, auto);
-    width: 72%;
-    height: 400px;
-    margin: 0 auto;
-  }
-
-  .discription,
-  .travel > p {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  .button {
-    height: 30px;
-  }
-  .button > hr {
-    color: black;
-  }
+  
