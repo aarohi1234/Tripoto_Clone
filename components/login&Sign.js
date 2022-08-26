@@ -93,7 +93,7 @@ function loginSign() {
     }
   }
   function load() {
-    window.location.href = "index.html";
+    window.location.reload();
   }
 
   window.ondblclick = function () {

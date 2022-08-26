@@ -1,6 +1,6 @@
 function navbar2(){
     return `
-    <div id="common_Header">
+    <div id="common_Header1">
         <nav id="nav">
           <div>
             <img
@@ -86,9 +86,7 @@ function navbar2(){
           </div>
         </div>
         <div>
-      
           <a href="#">
-            <i class="fas fa-search"></i>
           </a>
         </div>
         <div
