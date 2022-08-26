@@ -23,7 +23,6 @@ function navbar3(){
             <p>Create New</p>
           </div>
         </span>
-        <a href="#">&nbsp;&nbsp;Sign in</a>
       </div>
     </nav>
   </div>

@@ -36,18 +36,33 @@
     font-size: smaller;
     margin-left: 25px;
   }
+  #logo1 >img{
+    height: 50px;
+    width: 140px;
+  }
   .GooglePlaystore {
     margin-left: 5px;
-    margin-top: 15px;
+    margin-top: -15px;
+  }
+  .GooglePlaystore >img{
+    height: 100px;
+    width: 140px;
   }
   .social-icon {
     margin-top: 5px;
+    margin-left: 1px;
   }
   .social-icon > a > img {
+    
     height: 25px;
+    /* height: 25px; */
+    width: 24px;
   }
   .TrendingTrips > a {
     text-decoration: none;
     color: black;
   }
- 
+ #hrlinecomm{
+  width: 90%;
+  margin-bottom: 10px;
+ }

@@ -10,7 +10,7 @@ function footer(){
         />
         <p>The Global Travel Community</p>
         <br />
-        <hr />
+        <hr id="hrlinecomm"/>
         <div class="social-icon">
           <a href=""
             ><img
