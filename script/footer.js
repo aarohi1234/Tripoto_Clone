@@ -1,2 +1,2 @@
-import footer from "../components/footerexport.js";
+import footer from "../component/footerexport.js";
 document.getElementById("footer").innerHTML=footer()

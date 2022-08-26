@@ -12,10 +12,10 @@ let navbar=()=>{
       
 
       <div id="tooltip-popup">
-         <p>Visit Dubai</p>
-         <p>Beaches</p>
-         <p>Mountains</p>
-         <p>Explore More</p>
+         <a href="#"><p>Visit Dubai</p></a>
+        <a  href="#"> <p>Beaches</p></a>
+        <a  href="#"> <p>Mountains</p></a>
+        <a  href="#"><p>Explore More</p></a>
       </div>
   </span>
 
@@ -31,9 +31,8 @@ let navbar=()=>{
       <p>Publish Trip <i id="fa-solid fa-caret-down"></i></p>
 
       <div id="tooltip-popup">
-          <p>Create New</p>
-          <!-- <p>jscvhvbxhdv x</p>
-          <p>zzvcxb bcvhcx bcvh </p> -->
+          <a href="#"><p>Create New</p></a>
+        
       </div>
   </span>
 
@@ -42,4 +41,4 @@ let navbar=()=>{
   </span>
 </div>`
 }
-export default navbar;
+export { navbar};
