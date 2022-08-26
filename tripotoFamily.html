@@ -5,25 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tripoto</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://cdn1.tripoto.com/assets/2.9/img/favicon.ico"
+    />
     <link rel="stylesheet" href="./style/tripoto.css" />
-    <link rel="stylesheet" href="./style/mainfooter.css">
+    <link rel="stylesheet" href="./style/mainfooter.css" />
     <link rel="stylesheet" href="./style/package.css" />
   </head>
   <body>
     <div id="NAVBAR2"></div>
-   
+
     <div id="tripotodiv1">
       <a href="partners.html"
         ><img
           class="small_img"
           src="https://cdn1.tripoto.com/assets/2.9/img/logo/mini-logo.png"
           alt=""
-        /><i class="fa-solid fa-caret-right"></i>&nbsp;&nbsp;collections &nbsp;</a
+        /><i class="fa-solid fa-caret-right"></i>&nbsp;&nbsp;collections
+        &nbsp;</a
       ><span>
-        <i class="fa-solid fa-caret-right"></i> &nbsp;Welcome To Tripoto Family!</span
+        <i class="fa-solid fa-caret-right"></i> &nbsp;Welcome To Tripoto
+        Family!</span
       >
       <h1>Welcome to Tripoto Family!</h1>
-      <div style="max-height: 66px; line-height: 22px">
+      <div style="max-height: 66px; line-height: 22px; margin-right: 4%">
         We're inviting travel content creators to become the face of India's
         biggest community of travellers. Budding creators can apply to become a
         part of our Creator Mentorship Programme while travel influencers can
@@ -32,7 +39,7 @@
         grow exponentially as a creator!
       </div>
       <h2>In the Spotlight: Most Active Content Creators - July 2022</h2>
-      <p>
+      <p style="max-height: 66px; line-height: 22px; margin-right: 4%">
         Tripoto Family is a community of travel content creators who create
         stunning photo blogs, engaging reels and videos as well as informative
         articles. Here are the most active creators of the month who took us on
@@ -263,8 +270,8 @@
         </div>
       </div>
     </div>
-      <!-------------------------------------footer------------------------------------------------->
- 
+    <!-------------------------------------footer------------------------------------------------->
+
     <div id="FOOTER"></div>
   </body>
 </html>
@@ -319,8 +326,8 @@
         img.src = data[i].img;
         var p = document.createElement("p");
         p.innerHTML = data[i].tag;
-        // img.setAttribute("width", "350px");
-        // img.setAttribute("height", "300px");
+        img.setAttribute("width", "350px");
+        img.setAttribute("height", "300px");
         div.append(img, p);
         child.append(div);
         parent.append(child);

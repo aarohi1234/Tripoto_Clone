@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: circularairpro-bold,Helvetica,Arial,sans-serif;
 }
 #common_Header1 {
   width: 100%;
@@ -67,11 +68,12 @@
   width: 200px;
 }
 .small_img {
-  height: 20px;
-  margin-top: 10px;
+  /* height: 20px; */
+  margin-top: -6px;
   margin-right: 10px;
 }
 #tripotodiv1 {
+  margin-top: 30px;
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -119,6 +121,8 @@ h2 {
 }
 #hindiHeading1 {
   padding: 30px;
+  font-size: 30px;
+  text-decoration:wavy;
 }
 #Hindi2divcontatnt {
   margin-top: 10px;
@@ -182,6 +186,7 @@ h2 {
 }
 #lastdivtripoto{
     margin-top: 10%;
+    margin-bottom: 30px;
 }
 
 .tooltip {

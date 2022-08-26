@@ -1,6 +1,6 @@
 * {
   font-family: helvetica, arial, sans-serif;
-  font-family: circularairpro-bold,Helvetica,Arial,sans-serif;
+  font-family: circularairpro-bold, Helvetica, Arial, sans-serif;
 }
 * {
   margin: 0;
@@ -240,8 +240,7 @@ a {
   font-family: helvetica, arial, sans-serif;
   /* margin: 0; */
   padding-left: 7px;
-  
-  
+
   /* margin-left: 50px; */
 }
 #verify {
@@ -476,10 +475,152 @@ a {
   margin-left: 70px;
   margin-top: 20px;
 }
-.small_img{
+.small_img {
   height: 25px;
   /* margin-top: 20px; */
   margin-right: 10px;
 }
 
 /* -------------------------------------------------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: circularairpro-bold, Helvetica, Arial, sans-serif;
+}
+.nav {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  padding-top: 10px;
+  border: 1px solid black;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-popup {
+  visibility: hidden;
+  width: 130px;
+  background-color: white;
+  color: black;
+  padding-left: 20px;
+  border-radius: 2px;
+  margin-left: -50px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 20px;
+  line-height: 35px;
+}
+.tooltip:hover .tooltip-popup {
+  visibility: visible;
+}
+.logo > img {
+  margin-top: 4px;
+  display: inline-block;
+}
+.nav1 {
+  display: flex;
+  gap: 30px;
+  margin-left: 1%;
+}
+input {
+  display: inline-block;
+  height: 30px;
+  width: 400px;
+  margin-top: 8px;
+}
+.nav2 {
+  display: flex;
+  margin-right: 1%;
+}
+.nav2 {
+  gap: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin-top: 15px;
+}
+
+.tooltip > a > p {
+  margin-top: 20px;
+  color: white;
+  margin-right: 50px;
+}
+.tooltip > a {
+  text-decoration: none;
+}
+.tooltip > p {
+  color: white;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+p {
+  max-height: 100px;
+  line-height: 25px;
+  margin-right: 0px;
+}
+#common_nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  top: 0;
+  left: 0;
+  position: relative;
+  /* border: 1px  solid black; */
+  background-color: #2f9bdb;
+  /* position: fixed; */
+}
+#common_nav > div:nth-child(1) {
+  width: 13%;
+  height: 10vh;
+  margin-top: 5px;
+}
+#common_nav > div:nth-child(3) {
+  height: 10vh;
+  margin-left: 2%;
+}
+#Hindi_link {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30%;
+}
+#Hindi_link > a {
+  margin-right: 80px;
+  gap: 20px;
+  text-decoration: none;
+  margin-top: 20px;
+  font-weight: bolder;
+  color: white;
+  font-family: circularairpro-bold, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+#Common_navsearch {
+  width: 40%;
+  height: 2vw;
+  /* margin-left: 0px; */
+  border-radius: 5px;
+  background-color: white;
+  padding: 7px;
+  margin-top: 12px;
+}
+#hindiInputCont {
+  justify-content: center;
+  align-items: center;
+  line-height: 4vh;
+  border: none;
+  outline: none;
+  width: 90%;
+}
+#mainLogo {
+  height: 200px;
+  width: 200px;
+}
+#mainLogoHindi {
+  margin-left: 30px;
+}

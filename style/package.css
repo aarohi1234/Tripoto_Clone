@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: circularairpro-bold,Helvetica,Arial,sans-serif;
 }
 #header {
   width: 100%;
@@ -741,4 +742,9 @@ a {
 #nav>div>img{
   height: 50px;
   width: 100px;
+}
+#lastfooterfix{
+  /* padding: 50%; */
+  /* margin-top: 100px; */
+  margin-bottom: 60px;
 }

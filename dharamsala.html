@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="./style/navbar3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   
+   <title>Learn Sketching & Go on Guided Forest Walks Around the Himalayan Trails | Cosmic Geeks, Dharamshala</title>
+   <link rel="shortcut icon" type="image/x-icon" href="https://cdn1.tripoto.com/assets/2.9/img/favicon.ico">
+   <link rel="stylesheet" href="./style/form.css">
   </head>
   <body>
 
@@ -165,55 +167,44 @@
 </div> 
 
 <!--form-->
-<div id=verify>
-  <form id="form">
-    <H3>कृपया अपना विवरण दें।</H3><br><br>
-    <label for="">Enter-Your-Email</label>
-    <input id="email" type="text" placeholder="Email"><br><br>
-    <label for="">Enter-Your-Nmae</label>
-    <input id="name" type="text" placeholder="Full Name"><br><br>
-    <label for="">Enter-Contact-No</label>
-    <input id="contact" type="text" placeholder="Contact Number"><br><br>
-    <label  for="">Deprature Date</label><br><br>
-    <input  type="date" id="myDate" placeholder="Deprature Date"><br><br>
-    <label for="">Enter-Your-city</label>
-    <input id="city" type="text" placeholder="Deprature City"><br><br>
-    <label for="">Enter-Destinations-Address</label>
-    <input id="des" type="text" placeholder="Destinations"><br><br>
-    <label for="">Enter-Duration</label>
-    <input id="dur" type="text" placeholder="Duration"><br><br>
-    <label for="">Enter-Person-Quantity</label>
-    <input id="quant" type="text" placeholder="Quantity"><br><br>
-    <label for="">Budget-Per-Person</label>
-    <input type="text" placeholder="Budget Per Person"><br><br>
-    <label for="">Rating</label>
-    <select name="" id="star">
-        <option value="5 star">5 star</option>
-        <option value="5 star">4 star</option>
-        <option value="5 star">3 star</option>
-        <option value="5 star">2 star</option>
-        <option value="5 star">Don't need Hotel</option>
-    </select><br><br>
-  <div class="cost">
-    <h2>क़ीमत</h2>
-    <h2>9,600</h2>
-  </div>
-    
-    <label for="">Flight Book or not?</label>
-    
-  
-        <input style="width: 10px; height:10px" type="radio" value="yes"> <label for="">YES</label>
-        <input  style="width: 10px; height:10px" type="radio" value="No">NO<br><br>
-        <input style=" text-align:center;width:250px;" type="submit"name="चेक-आउट">
-        <p>I accept the Terms of Use and Privacy Policy of Tripoto.</p>
-        
-  
-      </form>
-      <button style=" padding-bottom: 30px; margin-left: 2%; width: 250px;height: 30px; background-color: #2f9bdb; text-align: center;" onclick="showlocations()">चेक-आउट</button>
-  </div> 
-  <!-- <button onclick="showlocations()">चेक-आउट</button> -->
-  
-  </div>
+<div class="form-wrap">
+  <form>
+    <p id="formhead">Enter Your Details and Proceed To Book</p>
+    <input type="text" id="email" placeholder="Email" />
+    <input type="text" id="name" placeholder="Full Name" />
+    <input type="number" id="mobile" placeholder="Contact Number" />
+    <input type="text" id="cityname" placeholder="Departure City" />
+    <input type="date" id="date" placeholder="Check In Date" />
+    <label for="pet-select" id="formlevel">Type-Of-Room</label>
+    <select name="pets" id="typeofroom">
+      <option value="">--Select An Option--</option>
+      <option value="1">deluxe room(Double Occupancy)</option>
+      <option value="200">Premium Log Hut Cabin (Double Occupancy)</option>
+    </select>
+    <label for="pet-select" id="formlevel">No-Of-People</label>
+    <select name="pets" id="noofperson">
+      <!-- <option value="">--Number Of People--</option> -->
+      <option value="">--Select An Option--</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+    </select>
+    <div id="displayamount">
+        <h2>Amount</h2>
+       <span style="margin-left: 30px; font-size:13px;margin-top:7px;">Starting from</span> <h2>0</h2>
+    </div>
+    <p>Taxes and discounts are calculated at checkout.</p>
+    <!-- <input type="button" value="Sign Up" /> -->
+    <button id="submit" onsubmit="submit()">Next =></button>
+    <p id="lastptag">I accept the Terms of Use and Privacy Policy of Tripoto.</p>
+  </form>
+</div>
   
 <!-------------------------------------- Discover now-------------------------------------------------------------------------->
 

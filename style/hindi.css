@@ -1,5 +1,7 @@
 * {
-  font-family: helvetica, arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: circularairpro-bold,Helvetica,Arial,sans-serif;
 }
 #Hindi2div {
   display: flex;
