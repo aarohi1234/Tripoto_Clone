@@ -1,0 +1,29 @@
+*{
+    font-family: circularairpro-bold, Helvetica, Arial, sans-serif;;
+}
+.explore{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 10px;
+width: 90%;
+margin: auto;
+}
+
+.explore>div>img{
+    width:100%;
+ 
+}
+.explore>div>h2{
+    
+    margin-top: 5px;
+    
+}
+h1{
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#footter{
+    margin-top: 50px;
+}
