@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./beaches.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
 </head>
 <body>
+    <div id="nav"></div>
     <div id="main">
         <h1>Beaches</h1>
         <p>The crunch of white sand beneath your feet and the thundering ocean beckoning you into its cool waters. Explore all you need to know about taking a trip to the beach!</p>
@@ -22,6 +25,16 @@
         <h1>Top Tripoto Vlogs for Beaches This Week</h1>
         <div id="hotel_div"></div>
     </div>
+    <div id="footter"></div>
 </body>
 </html>
 <script src="./beaches.js"></script>
+<script type="module">
+    import { navbar } from "../component/navbarexport.js";
+    console.log(navbar)
+    document.getElementById("nav").innerHTML=navbar()
+    import footer from "../component/footerexport.js";
+document.getElementById("footter").innerHTML=footer()
+</script>
+
+<!-- <script src="../component/navbarexport.js"></script> -->

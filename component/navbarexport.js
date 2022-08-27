@@ -12,10 +12,12 @@ let navbar=()=>{
       
 
       <div id="tooltip-popup">
-         <a href="#"><p>Visit Dubai</p></a>
-        <a  href="#"> <p>Beaches</p></a>
-        <a  href="#"> <p>Mountains</p></a>
-        <a  href="#"><p>Explore More</p></a>
+      <a href="../visit_dubai.html"><p>Visit Dubai</p></a>
+      <a href="../Beaches/beaches.html"> <p>Beaches</p></a>
+      <a href="../packages.html"> <p>Packages</p></a>
+      <a href="../MindfulRetreats.html"><p>Mindful Rest</p></a>
+      <a href="../tripotoFamily.html"><p>Family</p></a>
+      <a href="../explore.html"><p>Explore More</p></a>
       </div>
   </span>
 
@@ -24,7 +26,7 @@ let navbar=()=>{
   </span>
 
   <span>
-      <p>Package</p>
+  <a id ="Litleanchortag" href="../packages.html"> <p>Packages</p></a>
   </span>
 
   <span id="tooltip">

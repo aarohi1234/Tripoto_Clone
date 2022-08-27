@@ -25,10 +25,12 @@ function navbar2(){
             <span class="tooltip">
             <a href="#"><p>Inspiration <i class="fa-solid fa-caret-down"></i></p></a>
                 <div class="tooltip-popup">
-                  <p>Visit Dubai</p>
-                  <p>Beaches</p>
-                  <p>Mountains</p>
-                  <p>Explore More</p>
+                <a href="./visit_dubai.html"><p>Visit Dubai</p></a>
+                <a href="./Beaches/beaches.html"> <p>Beaches</p></a>
+                <a href="./packages.html"> <p>Packages</p></a>
+                <a href="./MindfulRetreats.html"><p>Mindful Rest</p></a>
+                <a href="./tripotoFamily.html"><p>Family</p></a>
+                <a href="./explore.html"><p>Explore More</p></a>
                 </div>
               </span>
             <a href="#">Forum</a>

@@ -1,10 +1,10 @@
-#dubai{
-    margin-left: 150px;
+#dubai {
+  margin-left: 150px;
 }
-#dubai2>img{
-    width: 80%;
-}     
-        .controls {
+#dubai2 > img {
+  width: 80%;
+}
+.controls {
   visibility: hidden;
   opacity: 0.5;
   width: 400px;
@@ -18,114 +18,106 @@
   transition: 1s all;
   display: flex;
 }
-#video{
-    /* justify-content:center; */
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
+#video {
+  /* justify-content:center; */
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
 }
 
 .player:hover .controls,
 .player:focus-within .controls {
   opacity: 1;
 }
-span>p{
-    font-weight: 400px;
-    font-size: 20px;
+span > p {
+  font-weight: 400px;
+  font-size: 20px;
 }
-#Trending{
-            height: 400px;
-            width:90% ;
-            border: none;
-            display: flex;
-            /* border: 3px solid blue; */
-        }
-        #tred1{
-            height: 300px;
-            width:50% ;
-            border: none;
-            margin-top: 30px;
-            margin-left: 30px;
-            
-            /* border: 3px solid green; */
+#Trending {
+  height: 400px;
+  width: 90%;
+  border: none;
+  display: flex;
+  /* border: 3px solid blue; */
+}
+#tred1 {
+  height: 300px;
+  width: 50%;
+  border: none;
+  margin-top: 30px;
+  margin-left: 30px;
 
-        }
-        
-        #tred1>img{
-            border-radius: 10px;
-            height: 200px;
-            width: 100%;
-        }
-        #tred2{
-            height: 300px;
-            width:50% ;
-            border: none;
-            margin-top: 30px;
-            margin-left: 30px;
-            /* border: 1px solid blue; */
+  /* border: 3px solid green; */
+}
 
-        }
-        #tred2>img{
-            border-radius: 10px;
-            height: 200px;
-            width: 100%;
-        }
-        #tred3{
-            height: 300px;
-            width:50% ;
-            border: none;
-            margin-top: 30px;
-            margin-left: 30px;
-            /* border: 1px solid red; */
+#tred1 > img {
+  border-radius: 10px;
+  height: 200px;
+  width: 100%;
+}
+#tred2 {
+  height: 300px;
+  width: 50%;
+  border: none;
+  margin-top: 30px;
+  margin-left: 30px;
+  /* border: 1px solid blue; */
+}
+#tred2 > img {
+  border-radius: 10px;
+  height: 200px;
+  width: 100%;
+}
+#tred3 {
+  height: 300px;
+  width: 50%;
+  border: none;
+  margin-top: 30px;
+  margin-left: 30px;
+  /* border: 1px solid red; */
+}
 
-            
-        }
+.imagee {
+  /* height: 110%; */
+  width: 90%;
+}
+#tred3 > img {
+  border-radius: 10px;
 
-        .imagee{
-            /* height: 110%; */
-            width: 90%;
+  height: 200px;
+  width: 100%;
+  /* border: 1px solid blue; */
+}
+p2 {
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: circularairpro-bold, Helvetica, Arial, sans-serif;
+}
+.explore {
+  margin-bottom: 50px;
+  margin-left: 500px;
+}
+.para {
+  margin-left: 30px;
+  /* color: blue; */
+  font-size: 17px !important;
+  font-weight: 20px;
+}
+.head {
+  font-size: 44px;
+  font-weight: bold;
 
-        }
-        #tred3>img{
-            border-radius: 10px;
-
-            height: 200px;
-            width: 100%;
-            /* border: 1px solid blue; */
-        }
-        p2{
-            font-size: 18px;
-            text-transform: capitalize;
-            font-family: circularairpro-bold,Helvetica,Arial,sans-serif;
-        }
-        .explore{
-            margin-bottom: 50px;
-            margin-left: 500px;
-
-        }
-        .para{
-            margin-left: 30px;
-            /* color: blue; */
-            font-size: 17px!important;
-            font-weight: 20px;
-
-        }
-        .head{
-            font-size: 44px;
-            font-weight: bold;
-
-            font-family: circularairpro-bold,Helvetica,Arial,sans-serif;
-            margin-left: 30px;
-            /* color: blue; */
-
-        }
-        #nav{
-            background-color: rgb(210, 8, 210);
-        }
-        #nav1>input{
-            margin-top: 15px;
-        }
-        
-       
-       
-    
+  font-family: circularairpro-bold, Helvetica, Arial, sans-serif;
+  margin-left: 30px;
+  /* color: blue; */
+}
+#nav {
+  background-color: rgb(210, 8, 210);
+}
+#nav1 > input {
+  margin-top: 15px;
+}
+#tooltip-popup >a{
+    text-decoration: none;
+    color: black;
+}
