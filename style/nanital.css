@@ -1,0 +1,296 @@
+*{
+  margin: 0px ;
+  padding: 0px;
+  font-family: circularairpro-bold,Helvetica,Arial,sans-serif;
+}
+.blogContainer {
+  width: 100%;
+}
+.container_blog {
+  display: flex;
+  margin: 0 250px;
+  width: 80%;
+  gap: 1%;
+}
+.blog {
+  width: 70%;
+  font-size: larger;
+}
+.blog > img {
+  width: 100%;
+}
+.form {
+  width: 40%;
+  height: 1200px;
+  border: 1px solid rgba(145, 151, 163, 0.2);
+  box-shadow: 0 5px 10px 0 #dddddd80;
+  font-family: helvetica, arial, sans-serif;
+  margin: 0;
+  padding-left: 7px;
+}
+.form > button {
+  width: 180px;
+  background: blue;
+  color: white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  height: 30px;
+}
+.form > p {
+  font-size: xx-small;
+}
+#div {
+  border: 1px solid black;
+  margin: 0 250px;
+  width: 55%;
+  margin-left: 250px;
+}
+#comment {
+  width: 700px;
+  height: 100px;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+#btn1 {
+  background-color: blue;
+  color: white;
+  margin-left: 700px;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  font-family: circularairpro-bold, Helvetica, Arial, sans-serif;
+  background-color: #fafafa;
+}
+.container > h1 {
+  margin-left: 230px;
+  font-family: circularairpro-bold, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.TrendingTrips {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  width: 72%;
+  height: 400px;
+  margin: 0 auto;
+}
+.TravelGuides {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  width: 70%;
+  height: 280px;
+  margin: 0 auto;
+}
+.DiscoverNow {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  width: 70%;
+  height: 220px;
+  margin: 0 auto;
+}
+.img > img {
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+}
+.button {
+  display: flex;
+  width: 320px;
+}
+.discription {
+  width: 320px;
+}
+.discription > h4 {
+  margin: 0;
+}
+.button > button {
+  margin-left: 200px;
+  height: 20px;
+  margin-top: 5px;
+}
+.button > h5 {
+  margin-top: 5px;
+}
+.discription > p {
+  font-size: smaller;
+  margin-top: 0;
+}
+.img1 > img {
+  width: 250px;
+  height: 170px;
+  margin-top: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.img2 > img {
+  width: 180px;
+  height: 250px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.slick-arrow {
+  color: black;
+  font-size: 0px;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-next {
+  right: 0px;
+}
+.slick-prev {
+  left: -45px;
+}
+
+.slick-next,
+.slick-prev {
+  line-height: 0;
+  position: absolute;
+  top: 40%;
+  display: block;
+  width: 50px;
+  height: 20px;
+}
+.slick-next:before,
+.slick-prev:before {
+  font-family: slick;
+  font-size: 50px;
+  line-height: 1;
+  opacity: 0.75;
+  color: rgb(177, 171, 171);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.footerFirst {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  width: 98%;
+  gap: 10px;
+}
+.footerFirst > div {
+  margin-top: 20px;
+  width: 100%;
+  margin-left: 1%;
+  height: 350px;
+  font-family: helvetica, arial, sans-serif;
+}
+.footerSecond {
+  width: 98%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: helvetica, arial, sans-serif;
+  height: 100px;
+}
+.footerFirst > div > a {
+  text-decoration: none;
+  color: black;
+  font-size: smaller;
+}
+.footerSecond > p {
+  margin-top: 10px;
+  font-size: smaller;
+}
+#logo {
+  width: 180px;
+  font-size: smaller;
+  margin-left: 25px;
+}
+.GooglePlaystore {
+  margin-left: 5px;
+  margin-top: 15px;
+}
+.social-icon {
+  margin-top: 5px;
+}
+.social-icon > a > img {
+  height: 25px;
+}
+.author {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  width: 100%;
+  height: 50px;
+  background-color: rgb(217, 243, 255);
+  margin-bottom: 10px;
+  margin: 10 auto;
+}
+.author > div > img {
+  border-radius: 50%;
+  height: 35px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.name {
+  margin-top: 10px;
+  margin-left: -90px;
+}
+.no {
+  margin-top: 10px;
+}
+.views {
+  margin-top: 10px;
+  text-align: right;
+}
+.facebook {
+  text-align: right;
+  margin-right: -90px;
+}
+.facebook > img {
+  height: 20px;
+}
+.heart {
+  text-align: right;
+  margin-right: -140px;
+}
+.no {
+  text-align: right;
+  margin-right: -190px;
+}
+.swis {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.swis > img {
+  width: 48%;
+  margin-left: 1%;
+}
+#btn1 {
+  width: 75px;
+  height: 30px;
+}
+#countComment {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#div > p {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+input[type="text"] {
+  margin-left: 13%;
+  width: 300px;
+}
+input[type="date"] {
+  margin-left: 13%;
+  width: 300px;
+}
+label {
+  margin-left: 13%;
+}
+.cost > h2 {
+  margin-left: 20%;
+}
+#buttons {
+  margin-left: 20%;
+}
