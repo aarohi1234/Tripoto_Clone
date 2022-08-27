@@ -1,5 +1,6 @@
 #outer_box{
-    width: 85%;;
+    width: 85%;
+    margin: auto;
 }
 #inner_box{
     display: grid;
