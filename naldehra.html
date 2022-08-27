@@ -7,6 +7,13 @@
     <!-- <link rel="stylesheet" href="./style/tripoto.css"> -->
     <title>Learn Sketching & Go on Guided Forest Walks Around the Himalayan Trails | Cosmic Geeks, Naldehra</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://cdn1.tripoto.com/assets/2.9/img/favicon.ico">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./style/navbar3.css">
     <link rel="stylesheet" href="./style/commonnavbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -89,11 +96,11 @@
 </div>
 
 <div id="hinditext1">
-    <p style="font-size: 25px;">72,80.05</p>
+    <p style="font-size: 25px;">₹8,500</p>
     <p style="color: #f63;">24.21% छूट</p>
     <div class=daynight><p>3 दिन · 2 रात</p> 
     </div>
-    <p style="text-decoration: line-through;opacity: .5;">9500</p>
+    <!-- <p style="text-decoration: line-through;opacity: .5;">9500</p> -->
 
   </div>
 
@@ -214,13 +221,15 @@
         </select>
         <div id="displayamount">
             <h2>Amount</h2>
-           <span style="margin-left: 30px; font-size:13px;margin-top:7px;">Starting from</span> <h2>0</h2>
+           <span style="margin-left: 30px; font-size:13px;margin-top:7px;">Starting from</span>
+            <h2 id="priceUpdate">₹8,500</h2>
         </div>
         <p>Taxes and discounts are calculated at checkout.</p>
         <!-- <input type="button" value="Sign Up" /> -->
-        <button id="submit" onsubmit="submit()">Next =></button>
+        <button id="submit" onsubmit="submit()">Checkout <i class="fa-solid fa-bags-shopping"></i></button>
         <p id="lastptag">I accept the Terms of Use and Privacy Policy of Tripoto.</p>
       </form>
+      <button id="submit2" onsubmit="submit()">Submit & Payment<i class="fa-solid fa-bags-shopping"></i></button>
     </div>
   
      
@@ -370,28 +379,31 @@
 <script src="./scripts/index.js" type="module"></script>
 <script src="./scripts/naldehra.js" type="module"></script>
 
+  
 <script>
-
-var form = document.querySelector("form");
-form.addEventListener("submit", (event)=>{
+  var form = document.querySelector("form");
+  form.addEventListener("submit", (event) => {
     event.preventDefault();
     let data = {
-        email:form.email.value,
-        name:form.name.value,
-        mobile:form.mobile.value,
-        cityname:form.cityname.value,
-        date:form.date.value,
-        typeofroom:Number(form.typeofroom.value),
-        noofperson:Number(form.noofperson.value),
-    }
-    console.log(data)
+      email: form.email.value,
+      name: form.name.value,
+      mobile: form.mobile.value,
+      cityname: form.cityname.value,
+      date: form.date.value,
+      typeofroom: Number(form.typeofroom.value),
+      noofperson: Number(form.noofperson.value),
+    };
+    console.log(data);
+    let price = +(8500)
+    // console.log(price)
+    let person = data.noofperson;
+    let validateroomprice = (data.typeofroom)*(data.noofperson)
+    // console.log(validateroomprice)
 
+    let validPrice = (price*data.noofperson)+(validateroomprice)
+    console.log(validPrice)
+    document.getElementById("priceUpdate").innerHTML = `₹${validPrice}`
 
-
-    // document.getElementById("user_pic").value = null
-    // document.getElementById("user_name").value = null
-    // document.getElementById("user_email").value = null
-
-})
-
+    
+  });
 </script>

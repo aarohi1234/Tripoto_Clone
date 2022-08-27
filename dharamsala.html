@@ -80,7 +80,7 @@
 </div>
 
 <div id="hinditext1">
-    <p style="font-size: 25px;">72,80.05</p>
+    <p style="font-size: 25px;">₹13,750</p>
     <p style="color: #f63;">24.21% छूट</p>
     <div class=daynight><p>3 दिन · 2 रात</p> 
     </div>
@@ -199,13 +199,15 @@
         </select>
         <div id="displayamount">
             <h2>Amount</h2>
-           <span style="margin-left: 30px; font-size:13px;margin-top:7px;">Starting from</span> <h2>0</h2>
+           <span style="margin-left: 30px; font-size:13px;margin-top:7px;">Starting from</span> 
+           <h2 id="priceUpdate">₹13,750</h2>
         </div>
         <p>Taxes and discounts are calculated at checkout.</p>
         <!-- <input type="button" value="Sign Up" /> -->
-        <button id="submit" onsubmit="submit()">Next =></button>
+        <button id="submit" onsubmit="submit()">Checkout <i class="fa-solid fa-bags-shopping"></i></button>
         <p id="lastptag">I accept the Terms of Use and Privacy Policy of Tripoto.</p>
       </form>
+      <button id="submit2" onsubmit="submit()">Submit & Payment<i class="fa-solid fa-bags-shopping"></i></button>
     </div>
   
      
@@ -440,4 +442,34 @@ autoplaySpeed: 6000,
 <script src="https://kit.fontawesome.com/01d90ed8c9.js" crossorigin="anonymous"></script>
 <script src="./scripts/index.js" type="module"></script>
 <script src="./scripts/commonpage.js" type="module"></script>
+
+<script>
+  var form = document.querySelector("form");
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    let data = {
+      email: form.email.value,
+      name: form.name.value,
+      mobile: form.mobile.value,
+      cityname: form.cityname.value,
+      date: form.date.value,
+      typeofroom: Number(form.typeofroom.value),
+      noofperson: Number(form.noofperson.value),
+    };
+    console.log(data);
+    let price = +(13750)
+    // console.log(price)
+    let person = data.noofperson;
+    let validateroomprice = (data.typeofroom)*(data.noofperson)
+    // console.log(validateroomprice)
+
+    let validPrice = (price*data.noofperson)+(validateroomprice)
+    console.log(validPrice)
+    document.getElementById("priceUpdate").innerHTML = `₹${validPrice}`
+
+    
+  });
+</script>
+
+
 
