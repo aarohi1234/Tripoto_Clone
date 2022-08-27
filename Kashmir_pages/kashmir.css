@@ -1,0 +1,33 @@
+#outer_box{
+    width: 85%;
+    margin: auto;
+}
+#inner_box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+#inner_box>div>img{
+    width: 100%;
+}
+.name{
+    color: #359391;
+}
+.place{
+    color: #359391;
+}
+.right_span{
+    margin-left: 130px;
+    border: 1px solid;
+    padding: 5px;
+    background-color: #359391;
+    color: white;
+    border-radius: 10px;
+}
+#quoteBtn{
+    border-color: #359391;
+    background-color: transparent;
+    color: #359391;
+    padding: 5px;
+}

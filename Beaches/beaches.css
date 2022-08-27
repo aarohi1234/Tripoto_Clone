@@ -1,0 +1,83 @@
+
+#main{
+    width: 80%;
+    margin: auto;
+}
+#img_div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+#img_div>div>img{
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+}
+#mid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+#mid>div{
+    width: 100%;
+    height: 90%;
+}
+#mid>div>img{
+    width: 100%;
+}
+.p_orange{
+    color: #f63;
+}
+#package{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+#package>div{
+    width: 100%;
+    height: 50%;
+}
+#package>div>img{
+    width: 100%;
+}
+.name{
+    color: #359391;
+}
+.place{
+    color: #359391;
+}
+.right_span{
+    margin-left: 130px;
+    border: 1px solid;
+    padding: 5px;
+    background-color: #359391;
+    color: white;
+    border-radius: 10px;
+}
+#quoteBtn{
+    border-color: #359391;
+    background-color: transparent;
+    color: #359391;
+    padding: 5px;
+}
+#place_div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+#place_div>div>img{
+    width: 100%;
+}
+#hotel_div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+#hotel_div>div>img{
+    width: 100%;
+    height: 30%;
+}
