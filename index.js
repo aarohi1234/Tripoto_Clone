@@ -111,22 +111,22 @@ let augSepData2 = [
         name:'Tripoto'
     },
     {
-        img:'https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1658862360_1470344082_14410876714_8fb5c0e392_o.png',
+        img:'https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1651046452_1545558276_erdap_2129568_1280.jpg',
         description:'Tripotos best Destination Of Month: Udaipur',
         name:'Tripoto'
     },
     {
-        img:'https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1658862537_1658847371_mg_7852.jpg',
+        img:'https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1658863871_1499420095_800px_kawah_ijen_ijen_crater_7540434086.jpg',
         description:'Tripotos best Destination Of Month: Udaipur',
         name:'Tripoto'
     },
     {
-        img:'https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331454_1560494791_motorcycle_2937056_1280.jpg',
+        img:'https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1658864265_1658819571_9.jpg',
         description:'Tripotos best Destination Of Month: Udaipur',
         name:'Tripoto'
     },
     {
-        img:'https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1656331979_1465388810_mussoorie_goa_634.jpg',
+        img:'https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1658864365_1529568428_1469857553_1.jpg',
         description:'Tripotos best Destination Of Month: Udaipur',
         name:'Tripoto'
     }
@@ -162,7 +162,7 @@ preBtn.addEventListener("click",()=>{
     prev(partnershipData);
     console.log("clicked me");
 })
-
+preBtn.style.visibility="hidden"
 let prev = (arr) =>{
     document.getElementById('divs').innerHTML = null;
     for(let i=0;i<4;i++){
@@ -181,15 +181,17 @@ let prev = (arr) =>{
 }
 
 
-
+// This is for the first slidder
 
 let nexBtn1 = document.getElementById('next1')
+
 nexBtn1.addEventListener('click',()=>{
-    next(augSepData1);
+    next1(augSepData1);
     console.log("clicked me");
 })
 
 let next1 = (arr) =>{
+    console.log(arr);
     document.getElementById('divs1').innerHTML = null;
     for(let i=4;i<arr.length;i++){
         let div = document.createElement('div');
@@ -197,8 +199,8 @@ let next1 = (arr) =>{
         imge.src = arr[i].img
         let name = document.createElement('h4')
         name.innerText = arr[i].description;
-        let p = document.createElement('h5')
-        p.innerText = arr[i].name
+        let p = document.createElement('p')
+        p.innerText = `By ${arr[i].name}`
         div.append(imge,name,p)
         document.getElementById('divs1').append(div);
     }
@@ -212,7 +214,7 @@ preBtn1.addEventListener("click",()=>{
     prev1(augSepData1);
     console.log("clicked me");
 })
-
+preBtn1.style.visibility="hidden"
 let prev1 = (arr) =>{
     document.getElementById('divs1').innerHTML = null;
     for(let i=0;i<4;i++){
@@ -221,11 +223,68 @@ let prev1 = (arr) =>{
         imge.src = arr[i].img
         let name = document.createElement('h4')
         name.innerText = arr[i].description;
-        let p = document.createElement('h5')
-        p.innerText = arr[i].name
+        let p = document.createElement('p')
+        p.innerText = `By ${arr[i].name}`
         div.append(imge,name,p)
         document.getElementById('divs1').append(div);
     }
     preBtn1.style.visibility="hidden"
     nexBtn1.style.visibility="visible"
 }
+
+// Below is for the second slider
+
+let nexBtn2 = document.getElementById('next2')
+
+nexBtn2.addEventListener('click',()=>{
+    next2(augSepData2);
+    console.log("clicked me");
+})
+
+let next2 = (arr) =>{
+    console.log(arr);
+    document.getElementById('divs2').innerHTML = null;
+    for(let i=4;i<arr.length;i++){
+        let div = document.createElement('div');
+        let imge = document.createElement('img')
+        imge.src = arr[i].img
+        let name = document.createElement('h4')
+        name.innerText = arr[i].description;
+        let p = document.createElement('p')
+        p.innerText = `By ${arr[i].name}`
+        div.append(imge,name,p)
+        document.getElementById('divs2').append(div);
+    }
+    nexBtn2.style.visibility="hidden"
+    preBtn2.style.visibility="visible"
+}
+
+
+let preBtn2 = document.getElementById('prev2')
+preBtn2.addEventListener("click",()=>{
+    prev2(augSepData2);
+    console.log("clicked me");
+})
+preBtn2.style.visibility="hidden"
+let prev2 = (arr) =>{
+    document.getElementById('divs2').innerHTML = null;
+    for(let i=0;i<4;i++){
+        let div = document.createElement('div');
+        let imge = document.createElement('img')
+        imge.src = arr[i].img
+        let name = document.createElement('h4')
+        name.innerText = arr[i].description;
+        let p = document.createElement('p')
+        p.innerText = `By ${arr[i].name}`
+        div.append(imge,name,p)
+        document.getElementById('divs2').append(div);
+    }
+    preBtn2.style.visibility="hidden"
+    nexBtn2.style.visibility="visible"
+}
+
+
+
+
+
+

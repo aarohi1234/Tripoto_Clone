@@ -40,26 +40,6 @@ img{
     margin: 10px 0px 0px 0px;
     font-size: 20px;
 }
-#divs1{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-#divs1:hover{
-    cursor: pointer;
-}
-#divs1 img{
-    width: 100%;
-    height: 200px;
-}
-#divs1 h4{
-    color: orange;
-    margin: 0px 0px 0px 0px;
-}
-#divs1 h5{
-    margin: 10px 0px 0px 0px;
-    font-size: 20px;
-}
 #prev{
     display: block;
     width: 80px;
@@ -83,9 +63,29 @@ img{
 .np:hover{
     cursor: pointer;
 }
+#divs1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#divs1:hover{
+    cursor: pointer;
+}
+#divs1 img{
+    width: 100%;
+    height: 200px;
+}
+#divs1 h4{
+    margin: 0px 0px 0px 0px;
+}
+#divs1 h5{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+}
+
 #prev1{
     display: block;
-    width: 80px;
+    width: 50px;
     height: 50px;
     background-color: #fff;
     margin: 80px -20px;
@@ -96,11 +96,215 @@ img{
 #next1{
     border-radius: 150px;
     display: block;
-    width: 80px;
+    width: 50px;
     height: 50px;
     border: 1px solid;
     background-color: #fff;
     margin:80px 0px 0px -20px;
     position: relative;
 }
-  
+/* this is the third slidder */
+#divs2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#divs2:hover{
+    cursor: pointer;
+}
+#divs2 img{
+    width: 100%;
+    height: 200px;
+}
+#divs2 h4{
+    margin: 0px 0px 0px 0px;
+}
+#divs2 h5{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+}
+
+#prev2{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    margin: 80px -20px;
+    position: relative;
+    border-radius: 150px;
+    border: 1px solid;
+}
+#next2{
+    border-radius: 150px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    background-color: #fff;
+    margin:80px 0px 0px -20px;
+    position: relative;
+}
+
+/* THIS IS FOR THE FOURTH SLIDDER */
+#divs3{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#divs3:hover{
+    cursor: pointer;
+}
+#divs3 img{
+    width: 300PX;
+    height: 200px;
+}
+#divs3 h4{
+    margin: 0px 0px 0px 0px;
+}
+#divs3 h5{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+}
+
+#prev3{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    margin: 80px -20px;
+    position: relative;
+    border-radius: 150px;
+    border: 1px solid;
+}
+.orange{
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 0px;
+    color: orange;
+}
+#next3{
+    border-radius: 150px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    background-color: #fff;
+    margin:80px 0px 0px -20px;
+    position: relative;
+}
+
+/* this is the button slidder */
+
+#divs4{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#divs4>div{
+    width: 25%;
+}
+#divs4:hover{
+    cursor: pointer;
+}
+#divs4 img{
+    width: 300PX;
+    height: 200px;
+}
+#divs4 h4{
+    margin: 0px 0px 0px 0px;
+}
+#divs4 h5{
+    margin: 10px 0px 0px 0px;
+    font-size: 20px;
+}
+
+#prev4{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    margin: 80px -20px;
+    position: relative;
+    border-radius: 150px;
+    border: 1px solid;
+}
+.teal{
+    font-weight: bolder;
+    font-size: 15px;
+    margin-top: 0px;
+    color: teal;
+}
+#next4{
+    border-radius: 150px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    background-color: #fff;
+    margin:80px 0px 0px -20px;
+    position: relative;
+}
+.tags{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:10px ;
+
+}
+#stay{
+    background-color: teal;
+    border-radius: 10px;
+    padding: 5px 10px;
+    align-items: center;
+    color: white;
+}
+#location{
+    display: flex;
+}
+#location-icon{
+}
+#price{
+    display: flex;
+}
+#person{
+    font-weight: lighter;
+    color: gray;
+}
+#book{
+    display: flex;
+    justify-content: space-between;
+    font-size:20px ;
+    margin-top: 20px;
+    align-items: center;
+    font-weight: lighter;
+}
+#book-now{
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-weight: lighter;
+    border: 1px solid teal;
+    color: teal;
+    background-color: white;
+}
+#book-now:hover{
+    cursor: pointer;
+}
+#verified{
+    display: flex;
+    align-items: center;
+}
+#verified>img:nth-child(1){
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+#verified>p{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#verified>p>img{
+    width:30px;
+    height: 30px;
+    
+}
