@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    /* background: #ecf1f4; */
+    font-family: sans-serif;
+  }
+  
+  .form-wrap {
+    width: 399px;
+    /* position: fixed; */
+    /* background: #3e3d3d; */
+    padding: 10px 20px;
+    height: 820px;
+    /* box-sizing: border-box; */
+    margin-top: -188%;
+    margin-left: 71%;
+    /* border: 1px solid black; */
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+  #formhead {
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-weight: bolder;
+  }
+  
+  input {
+    width: 100%;
+    background: none;
+    /* border: 1px solid #fff; */
+    border-radius: 3px;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 0.1px solid rgb(207, 206, 206);
+    /* border: none; */
+    outline: none;
+    /* color: #fff; */
+    font-weight: bold;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+  }
+  
+  #submit {
+    background: #bac675;
+    border: 0;
+    cursor: pointer;
+    color: #3e3d3d;
+    padding: 6px;
+    width: 80%;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 8%;
+    font-family: circularairpro-bold,Helvetica,Arial,sans-serif;
+  }
+  #submit {
+    background: #a4b15c;
+    transition: 0.6s;
+  }
+  #submit2 {
+    background: #a4b15c;
+    border: 0;
+    cursor: pointer;
+    color: #3e3d3d;
+    padding: 6px;
+    width: 80%;
+    margin-bottom: 20px;
+    font-size: 25px;
+    /* font-weight: bold; */
+    text-align: center;
+    margin-left: 8%;
+    font-family: circularairpro-bold,Helvetica,Arial,sans-serif;
+  }
+  #submit2 {
+    background: #2f9bdb;
+    transition: 0.6s;
+  }
+  
+  #formlevel {
+    font-size: 1rem;
+    padding-right: 10px;
+    font-family: sans-serif;
+  }
+  
+  #typeofroom,
+  #noofperson {
+    font-size: 0.9rem;
+    padding: 2px 5px;
+    width: 100%;
+    background: none;
+    border-radius: 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  #displayamount {
+    display: flex;
+    gap: 14%;
+  }
+  
+  
