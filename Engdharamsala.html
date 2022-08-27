@@ -521,9 +521,13 @@ autoplaySpeed: 6000,
     let validPrice = (price*data.noofperson)+(validateroomprice)
     console.log(validPrice)
     document.getElementById("priceUpdate").innerHTML = `₹${validPrice}`
-
+    localStorage.setItem("tripotoPrice",JSON.stringify(validPrice))
     
   });
+  document.getElementById("submit2").addEventListener("click", ()=>{
+    // alert("clicked")
+    window.location.href=""
+  })
 </script>
 
 
