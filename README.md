@@ -28,12 +28,13 @@
 #### `Login Page`
 ![img](https://github.com/aarohi1234/glistening-rock-2573/blob/main/Image/01login.jpeg)
 <br/>
+
+
 ####`Visit Dubai`
 ![img](https://github.com/aarohi1234/glistening-rock-2573/blob/main/Image/03visit_dubai.jpeg)
 <br/>
-![img](https://github.com/ranjeetmasaischool/tame-truck-9187/blob/main/photos/home2.png)
+
+#### `Explore More`
+![img](https://github.com/aarohi1234/glistening-rock-2573/blob/main/Image/05.jpeg)
 <br/>
-![img](https://github.com/ranjeetmasaischool/tame-truck-9187/blob/main/photos/home3.png)
-<br/>
-![img](https://github.com/ranjeetmasaischool/tame-truck-9187/blob/main/photos/home4.png)
-<br/>
+
