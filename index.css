@@ -305,6 +305,7 @@ img {
   display: flex;
   align-items: center;
   margin-left: 10px;
+    margin-top: 10px;
 }
 #verified > p > img {
   width: 30px;
