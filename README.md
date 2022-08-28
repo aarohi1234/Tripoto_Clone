@@ -18,9 +18,10 @@
 
 ### Some of the glimpses of our work
 #### `Landing Page`
-![img](https://github.com/ranjeetmasaischool/tame-truck-9187/blob/main/photos/Home%20Page.png)
+![img](https://github.com/aarohi1234/glistening-rock-2573/blob/main/Image/index.jpeg)
 <br/>
-![img](https://github.com/ranjeetmasaischool/tame-truck-9187/blob/main/photos/Home.png)
+#### `Login Page`
+![img](https://github.com/aarohi1234/glistening-rock-2573/blob/main/Image/01login.jpeg)
 <br/>
 ![img](https://github.com/ranjeetmasaischool/tame-truck-9187/blob/main/photos/Home%20Page%20middle.png)
 <br/>
