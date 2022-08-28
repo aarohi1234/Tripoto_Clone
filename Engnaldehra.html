@@ -250,17 +250,17 @@
         <p id="formhead">Enter Your Details and Proceed To Book</p>
         <input type="text" id="email" placeholder="Email" />
         <input type="text" id="name" placeholder="Full Name" />
-        <input type="number" id="mobile" placeholder="Contact Number" />
+        <input type="number" id="mobile" placeholder="Contact Number" required />
         <input type="text" id="cityname" placeholder="Departure City" />
         <input type="date" id="date" placeholder="Check In Date" />
         <label for="pet-select" id="formlevel">Type-Of-Room</label>
-        <select name="pets" id="typeofroom">
+        <select name="pets" id="typeofroom" required>
           <option value="">--Select An Option--</option>
           <option value="1">deluxe room(Double Occupancy)</option>
           <option value="200">Premium Log Hut Cabin (Double Occupancy)</option>
         </select>
         <label for="pet-select" id="formlevel">No-Of-People</label>
-        <select name="pets" id="noofperson">
+        <select name="pets" id="noofperson" required>
           <!-- <option value="">--Number Of People--</option> -->
           <option value="">--Select An Option--</option>
           <option value="1">1</option>
@@ -458,10 +458,21 @@
     console.log(validPrice)
     document.getElementById("priceUpdate").innerHTML = `₹${validPrice}`
     localStorage.setItem("tripotoPrice",JSON.stringify(validPrice))
-    
+    localStorage.setItem("avoidPrice",JSON.stringify(true))
+    const myTimeout = setTimeout(myGreeting, 5000);
   });
+  function myGreeting() {
+    // alert("checkout")
+      localStorage.setItem("avoidPrice",JSON.stringify(false))
+    }
   document.getElementById("submit2").addEventListener("click", ()=>{
     // alert("clicked")
-    window.location.href=""
+    let data = localStorage.getItem("avoidPrice")
+    // console.log(data)
+    if(data == "true"){
+      window.location.href="./payment/payment.html"
+    }else{
+      alert("please Checkout !!")
+    }
   })
 </script>

@@ -22,8 +22,9 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./style/hindi.css" />
-    <link rel="stylesheet" href="./style/mainfooter.css">
+    <!-- <link rel="stylesheet" href="./style/mainfooter.css"> -->
     <link rel="stylesheet" href="./style/tripoto.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
     <!-- <link rel="stylesheet" href="./style/package.css" /> -->
   </head>
   <body>
@@ -700,17 +701,21 @@
         /></a>
       </div>
     </div>
-
+<br> <br> <br>
     <!-- ---------footer-------------------------------------------------------------- -->
-    <div id="FOOTER"></div>
+    <!-- <div id="FOOTER"></div> -->
+    <div id="footter"></div>
   </body>
 </html>
 <script
   src="https://kit.fontawesome.com/01d90ed8c9.js"
   crossorigin="anonymous"
 ></script>
+<script type="module">
+  import footer from "./component/footerexport.js";
+  document.getElementById("footter").innerHTML = footer();
+</script>
 
-<script src="./scripts/1.js" type="module"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script

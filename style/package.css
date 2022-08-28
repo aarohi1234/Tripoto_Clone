@@ -418,7 +418,19 @@
   /* border: 1px solid black; */
   margin-bottom: 10px;
 }
-img {
+/* img {
+  width: 392px;
+  height: 250px;
+  border-radius: 3%;
+  margin-left: 0px;
+} */
+#Hindi2div2 > div a >img{
+  width: 392px;
+  height: 250px;
+  border-radius: 3%;
+  margin-left: 0px;
+}
+.box > a > img{
   width: 392px;
   height: 250px;
   border-radius: 3%;

@@ -75,7 +75,12 @@
   margin-left: 3%;
   /* border: 1px solid black; */
 }
-img {
+/* img {
+  width: 410px;
+  height: 250px;
+  border-radius: 3%;
+} */
+.box >a >img{
   width: 410px;
   height: 250px;
   border-radius: 3%;

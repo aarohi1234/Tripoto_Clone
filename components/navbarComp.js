@@ -3,10 +3,12 @@ function navbar() {
     <div id="header">
     <nav id="nav">
       <div>
-        <img
-          id="img"
+      <a href="./index.html">
+      <img
+          id="headingimg"
           src="https://cdn1.tripoto.com/assets/2.9/img/logo/tripoto.svg"
-        />
+        /></a>
+        
       </div>
       <div id="navsearch" style="display: none">
         <input
@@ -25,14 +27,16 @@ function navbar() {
         <span class="tooltip">
         <a href="#"><p>Inspiration <i class="fa-solid fa-caret-down"></i></p></a>
             <div class="tooltip-popup">
-              <p>Visit Dubai</p>
-              <p>Beaches</p>
-              <p>Mountains</p>
-              <p>Explore More</p>
+            <a href="./visit_dubai.html"><p>Visit Dubai</p></a>
+            <a href="./Beaches/beaches.html"> <p>Beaches</p></a>
+            <a href="./packages.html"> <p>Packages</p></a>
+            <a href="./MindfulRetreats.html"><p>Mindful Rest</p></a>
+            <a href="./tripotoFamily.html"><p>Family</p></a>
+            <a href="./explore.html"><p>Explore More</p></a>
             </div>
           </span>
-        <a href="#">Forum</a>
-        <a href="#">Holidays</a>
+          <a href="#"><p>Forum &nbsp;&nbsp;</p></a>
+        <a href="#"><p>Holidays &nbsp;&nbsp;</p></a>
         <span class="tooltip">
             <p>Publish Trip <i class="fa-solid fa-caret-down"></i></p>
             <div class="tooltip-popup">

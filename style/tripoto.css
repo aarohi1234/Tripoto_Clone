@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: circularairpro-bold,Helvetica,Arial,sans-serif;
+  font-family: circularairpro-bold, Helvetica, Arial, sans-serif;
 }
 #common_Header1 {
   width: 100%;
@@ -122,7 +122,7 @@ h2 {
 #hindiHeading1 {
   padding: 30px;
   font-size: 30px;
-  text-decoration:wavy;
+  text-decoration: wavy;
 }
 #Hindi2divcontatnt {
   margin-top: 10px;
@@ -172,21 +172,21 @@ h2 {
   color: rgb(90, 82, 239);
   border: none;
 }
-.sliderimages{
-    margin-left: -10%;
+.sliderimages {
+  margin-left: -10%;
 }
-.sliderimages >img{
-    height: 290px;
-    width: 350px;
-    /* border-radius: 20px; */
+.sliderimages > img {
+  height: 290px;
+  width: 350px;
+  /* border-radius: 20px; */
 }
-.sliderimages >p{
-    font-size: 22px;
-    font-weight: bolder;
+.sliderimages > p {
+  font-size: 22px;
+  font-weight: bolder;
 }
-#lastdivtripoto{
-    margin-top: 10%;
-    margin-bottom: 30px;
+#lastdivtripoto {
+  margin-top: 10%;
+  margin-bottom: 30px;
 }
 
 .tooltip {
@@ -226,15 +226,15 @@ h2 {
 .tooltip:hover .tooltip-popup {
   visibility: visible;
 }
-.tooltip >a >p{
+.tooltip > a > p {
   margin-top: 20px;
   color: white;
   margin-right: 30px;
 }
-.tooltip >a{
+.tooltip > a {
   text-decoration: none;
 }
-.tooltip >p{
+.tooltip > p {
   color: white;
   margin-top: 20px;
   margin-right: 30px;

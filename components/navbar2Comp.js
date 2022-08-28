@@ -1,12 +1,14 @@
-function navbar2(){
-    return `
+function navbar2() {
+  return `
     <div id="common_Header1">
         <nav id="nav">
-          <div>
-            <img
-              id="img"
+          <div id="changenavesize">
+          <a href="./index.html">
+          <img
+              id="headingimg"
               src="https://cdn1.tripoto.com/assets/2.9/img/logo/tripoto.svg"
-            />
+            /></a>
+            
           </div>
           <div id="navsearch" >
             <input
@@ -33,8 +35,8 @@ function navbar2(){
                 <a href="./explore.html"><p>Explore More</p></a>
                 </div>
               </span>
-            <a href="#">Forum</a>
-            <a href="#">Holidays</a>
+              <a href="#"><p>Forums &nbsp;&nbsp;</p></a>
+            <a href="#"><p>Holidays &nbsp;&nbsp;</p></a>
             <span class="tooltip">
                 <p>Publish Trip <i class="fa-solid fa-caret-down"></i></p>
                 <div class="tooltip-popup">
@@ -156,7 +158,7 @@ function navbar2(){
           </span>
         </p>
       </div>
-    `
+    `;
 }
 
-export {navbar2}
+export { navbar2 };

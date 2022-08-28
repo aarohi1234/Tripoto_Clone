@@ -2,10 +2,12 @@ function hindinavbar(){
     return `  <div id="common_Header">
     <nav id="nav">
       <div>
-        <img
-          id="img"
+      <a href="./index.html">
+      <img
+          id="headingimg"
           src="https://cdn1.tripoto.com/assets/2.9/img/logo/tripoto.svg"
-        />
+        /></a>
+        
       </div>
       <div id="navsearch" >
         <input
@@ -24,13 +26,12 @@ function hindinavbar(){
         <span class="tooltip">
         <a href="#"><p>चलो घूमें <i class="fa-solid fa-caret-down"></i></p></a>
             <div class="tooltip-popup">
-              <p>मेरा भारत महान</p>
-              <p>ट्रेवल हुआ आसान</p>
-              <p>सबसे बढ़िया जगह</p>
-              <p>सर्वश्रेष्ठ अनुभव</p>
-              <p>क्या आप जानते है</p>
-              <p>प्रेरणा</p>
-              <p>खबर</p>
+              <a href="./visit_dubai.html"><p>मेरा भारत महान</p></a>
+                <a href="./Beaches/beaches.html"> <p>ट्रेवल हुआ आसान</p></a>
+                <a href="./packages.html"> <p>सबसे बढ़िया जगह</p></a>
+                <a href="./MindfulRetreats.html"><p>सर्वश्रेष्ठ अनुभव</p></a>
+                <a href="./tripotoFamily.html"><p>क्या आप जानते है</p></a>
+                <a href="./explore.html"><p>खबर</p></a>
             </div>
           </span>
         <a href="#">सवाल-जवाब</a>
