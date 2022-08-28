@@ -8,6 +8,10 @@ body{
 }
 .anchors{
     display: flex;
+    margin-top: 30px;
+}
+h1{
+    margin-top: 40px;
 }
 img{
     width: 100%;
@@ -261,8 +265,6 @@ img{
 #location{
     display: flex;
 }
-#location-icon{
-}
 #price{
     display: flex;
 }
@@ -297,11 +299,13 @@ img{
     width: 40px;
     height: 40px;
     border-radius: 20px;
+    margin-top: 10px;
 }
 #verified>p{
     display: flex;
     align-items: center;
     margin-left: 10px;
+    margin-top: 10px;
 }
 #verified>p>img{
     width:30px;
