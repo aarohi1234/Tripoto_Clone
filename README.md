@@ -20,6 +20,9 @@
 #### `Landing Page`
 ![img](https://github.com/aarohi1234/glistening-rock-2573/blob/main/Image/index.jpeg)
 <br/>
+#### `Signupn Page`
+![img]([https://github.com/aarohi1234/glistening-rock-2573/blob/main/Image/01login.jpeg](https://github.com/aarohi1234/glistening-rock-2573/blob/main/Image/02signup.jpeg))
+<br/>
 #### `Login Page`
 ![img](https://github.com/aarohi1234/glistening-rock-2573/blob/main/Image/01login.jpeg)
 <br/>
