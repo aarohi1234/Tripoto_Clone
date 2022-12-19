@@ -19,7 +19,7 @@
 #### `Landing Page`
 
 ![img](https://github.com/aarohi1234/glistening-rock-2573/blob/main/Image/index.jpeg)
-<img src="./Image/index.jpeg" alt="" />
+
 <br/>
 
 #### `Sign up Page`
